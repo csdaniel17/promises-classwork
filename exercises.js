@@ -124,7 +124,7 @@ app.listen(3000, function() {
 
 var express = require('express');
 var mongoose = require('mongoose');
-var bcrypt = require('bcrypt');
+var bcrypt = require('bcrypt-as-promised');
 var bodyParser = require('body-parser');
 mongoose.connect('mongodb://localhost/coffee-store');
 
